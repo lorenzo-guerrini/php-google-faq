@@ -117,7 +117,7 @@ $QAArray = [
                     $answer .= $answerPart;
                 }
 
-                $output .= "<section>" . $question . $answer . "</section>";
+                $output .= "<section> $question $answer </section>";
             }
 
             echo $output;
